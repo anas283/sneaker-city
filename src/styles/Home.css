@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+/* hero */
+.hero {
+  height: 88vh;
+  background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.section-info {
+  width: 50%;
+}
+
+.circle-linear {
+  position: absolute;
+  right: 0;
+  margin-top: -10px;
+  margin-right: 150px;
+  transform: scale(0.9);
+}
+
+.shoe-1 {
+  position: absolute;
+  right: 0;
+  margin-top: 50px;
+  margin-right: 130px;
+  transform: scale(0.9);
+}
+
+.shoe-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 68px;
+  line-height: 75px;
+  text-align: left;
+}
+
+.shoe-info {
+  padding-right: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: -20px;
+}
+
+.shoe-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  padding: 11px 24px;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-red {
+  color: white;
+  background: #D90429;
+  display: flex;
+  align-self: flex-start;
+  border: 2px solid #D90429;
+}
+
+.btn-red:hover {
+  color: #D90429;
+  background: white;
+  border: 2px solid #D90429;
+  transform: translateY(-5px);
+}
+
+.shoe-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 50px;
+  margin-bottom: 15px;
+}
+
+/* find that sneaker */
+.section-find {
+  margin-top: -50px;
+}
+
+/* all new arrivals */
+.section-new {
+  padding: 20px 40px 60px 40px;
+}
+
+.section-new .new-title {
+  font-weight: 700;
+  text-align: start;
+}

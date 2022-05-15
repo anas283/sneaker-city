@@ -1,9 +1,9 @@
 import React from 'react'
-import './ShoeOption.css'
-import shoeOption1 from '../assets/images/shoe-option-1.png'
-import shoeOption2 from '../assets/images/shoe-option-2.png'
-import shoeOption3 from '../assets/images/shoe-option-3.png'
-import shoeOption4 from '../assets/images/shoe-option-4.png'
+import '../styles/ShoeOption.css'
+import shoeOption1 from '../assets/images/shoe1.svg'
+import shoeOption2 from '../assets/images/shoe2.svg'
+import shoeOption3 from '../assets/images/shoe3.svg'
+import shoeOption4 from '../assets/images/shoe4.svg'
 
 const ShoeOption = () => {
 

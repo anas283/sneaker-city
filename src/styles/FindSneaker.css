@@ -1,0 +1,40 @@
+.card-shadow {
+  width: fit-content;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.sneaker-image {
+  transform: scale(0.75);
+}
+
+.find-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.find-info:hover .find-text {
+  color: var(--red);
+}
+.find-info:hover .arrow-right {
+  transform: translateX(5px);
+}
+
+.find-text {
+  text-align: start;
+}
+
+.arrow-right{
+  width: 22px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 15px;
+  transition: all 0.2s ease-in-out;
+}

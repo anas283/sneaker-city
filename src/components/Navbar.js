@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+import '../styles/Navbar.css'
 import logo from '../assets/icons/logo.svg'
 import cartIcon from '../assets/icons/fi_shopping-cart.svg'
 import heartIcon from '../assets/icons/fi_heart.svg'
