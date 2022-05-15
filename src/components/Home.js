@@ -4,6 +4,7 @@ import circle from '../assets/images/circle-linear.svg'
 import shoe1 from '../assets/images/shoe-1.png'
 import ShoeOption from './ShoeOption'
 import FindSneaker from './FindSneaker'
+import ProductCard from './ProductCard'
 
 const Home = () => {
   return (
@@ -33,6 +34,8 @@ const Home = () => {
 
       <div className='section-new'>
         <h3 className='new-title'>All the new arrivals</h3>
+
+        <ProductCard />
       </div>
     </div>
   )

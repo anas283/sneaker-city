@@ -105,4 +105,5 @@
 .section-new .new-title {
   font-weight: bold;
   text-align: start;
+  margin-left: 10px;
 }
