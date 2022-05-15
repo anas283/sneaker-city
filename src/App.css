@@ -1,12 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/google-sans/ProductSans-Regular.eot');
+  src: url('./assets/fonts/google-sans/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/google-sans/ProductSans-Regular.woff2') format('woff2'),
+      url('./assets/fonts/google-sans/ProductSans-Regular.woff') format('woff'),
+      url('./assets/fonts/google-sans/ProductSans-Regular.ttf') format('truetype'),
+      url('./assets/fonts/google-sans/ProductSans-Regular.svg#ProductSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/google-sans/ProductSans-Medium.eot');
+  src: url('./assets/fonts/google-sans/ProductSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/google-sans/ProductSans-Medium.woff2') format('woff2'),
+      url('./assets/fonts/google-sans/ProductSans-Medium.woff') format('woff'),
+      url('./assets/fonts/google-sans/ProductSans-Medium.ttf') format('truetype'),
+      url('./assets/fonts/google-sans/ProductSans-Medium.svg#ProductSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/google-sans/ProductSans-Bold.eot');
+  src: url('./assets/fonts/google-sans/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/google-sans/ProductSans-Bold.woff2') format('woff2'),
+      url('./assets/fonts/google-sans/ProductSans-Bold.woff') format('woff'),
+      url('./assets/fonts/google-sans/ProductSans-Bold.ttf') format('truetype'),
+      url('./assets/fonts/google-sans/ProductSans-Bold.svg#ProductSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --red: #D90429;
 }
 
 .App {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Product Sans', sans-serif;
 }
 
 .App-logo {

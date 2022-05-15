@@ -29,12 +29,14 @@
 
 .find-text {
   text-align: start;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .arrow-right{
   width: 22px;
   height: auto;
-  margin-top: 20px;
+  margin-top: 18px;
   margin-left: 15px;
   transition: all 0.2s ease-in-out;
 }
