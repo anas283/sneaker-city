@@ -5,6 +5,9 @@ import shoe1 from '../assets/images/shoe-1.png'
 import ShoeOption from './ShoeOption'
 import FindSneaker from './FindSneaker'
 import ProductCard from './ProductCard'
+import feature1Img from '../assets/images/feature1.svg'
+import feature2Img from '../assets/images/feature2.svg'
+import feature3Img from '../assets/images/feature3.svg'
 
 const Home = () => {
   return (
@@ -34,8 +37,28 @@ const Home = () => {
 
       <div className='section-new'>
         <h3 className='new-title'>All the new arrivals</h3>
-
         <ProductCard />
+      </div>
+
+      <div className='section-features column'>
+        <div>
+          <h2 className='feature-title'>Good sneakers <br /> take you good places</h2>
+          <h5 className='feature-subtitle'>look no further, this is where you find the best pair!</h5>
+        </div>
+        <div className='space-between'>
+          <div className='feature'>
+            <img className='feature1-img' src={feature1Img} alt="feature" />
+            <h3 className='feature-text'>Curated <br/> & unique collection</h3>
+          </div>
+          <div className='feature feature2-container'>
+            <img className='feature2-img' src={feature2Img} alt="feature" />
+            <h3 className='feature-text text-center'>100% Original sneakers</h3>
+          </div>
+          <div className='feature'>
+            <img className='feature3-img' src={feature3Img} alt="feature" />
+            <h3 className='feature-text'>Buy the latest <br /> & define the trends</h3>
+          </div>
+        </div>
       </div>
     </div>
   )
