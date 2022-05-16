@@ -66,3 +66,10 @@
 .text-center {
   text-align: center !important;
 }
+
+.border-line {
+  width: 80%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+}

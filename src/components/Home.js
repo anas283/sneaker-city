@@ -60,6 +60,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className='border-line'></div>
     </div>
   )
 }
